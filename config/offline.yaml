@@ -1,5 +1,5 @@
 common:
-  dir_path: "/home/eason/data/Rec_2026-01-21_15-35-19/"   # "/path/to/your/data/"
+  dir_path: "/path/to/your/data/"
   # root_dir + path
   imu_file_name: "imu_data.txt"
   lid_dir_name: "pcd/"
