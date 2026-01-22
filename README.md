@@ -37,8 +37,8 @@ cmake ..
 make
 ```
 ## Run
+NOTICE: "/path/to/config.yaml" must be set to your config path (default: "/config/offline.yaml").  
 ```
-# NOTICE: "/path/to/config.yaml" must be set to your config path (./config/offline.yaml)
 ./fastlivo_mapping /path/to/config.yaml
 ```
 
