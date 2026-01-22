@@ -1,5 +1,21 @@
 # FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry
 
+## Preparation
+```
+DataFolder  
+├ imu_data.txt 
+├ pcd  
+│  ├ 1767781289679.pcd  
+│  ├ 1767781289746.pcd  
+│  ├ 1767781289813.pcd  
+│  ├ ...  
+├ image  
+│  ├ 1767781289704.jpg
+│  ├ 1767781289771.jpg
+│  ├ 1767781289838.jpg
+│  ├ ...
+```
+
 ## Usage
 Config (offline.yaml)
 ```
@@ -11,6 +27,7 @@ common:
     save_path: "/path/to/save/pointcloud/"
     camera_config_name: "/path/to/camera/config"
 ```
+
 ## Compile  
 ```
 cd /path/to/workspace
