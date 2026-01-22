@@ -3,7 +3,7 @@
 ## Preparation
 ```
 DataFolder  
-├ imu_data.txt 
+├ imu_data.txt (sys_time_ms,imu_hw_ts,acc_x,acc_y,acc_z,gyro_x,gyro_y,gyro_z)
 ├ pcd  
 │  ├ 1767781289679.pcd  
 │  ├ 1767781289746.pcd  
